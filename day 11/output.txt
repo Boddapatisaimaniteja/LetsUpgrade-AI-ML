@@ -1,0 +1,134 @@
+   Age Attrition  ... YearsSinceLastPromotion YearsWithCurrManager
+0   51        No  ...                       0                    0
+1   31       Yes  ...                       1                    4
+2   32        No  ...                       0                    3
+3   38        No  ...                       7                    5
+4   32        No  ...                       0                    4
+
+[5 rows x 24 columns]
+Age                         0
+Attrition                   0
+BusinessTravel              0
+Department                  0
+DistanceFromHome            0
+Education                   0
+EducationField              0
+EmployeeCount               0
+EmployeeID                  0
+Gender                      0
+JobLevel                    0
+JobRole                     0
+MaritalStatus               0
+MonthlyIncome               0
+NumCompaniesWorked         19
+Over18                      0
+PercentSalaryHike           0
+StandardHours               0
+StockOptionLevel            0
+TotalWorkingYears           9
+TrainingTimesLastYear       0
+YearsAtCompany              0
+YearsSinceLastPromotion     0
+YearsWithCurrManager        0
+dtype: int64
+Index(['Age', 'Attrition', 'BusinessTravel', 'Department', 'DistanceFromHome',
+       'Education', 'EducationField', 'EmployeeCount', 'EmployeeID', 'Gender',
+       'JobLevel', 'JobRole', 'MaritalStatus', 'MonthlyIncome',
+       'NumCompaniesWorked', 'Over18', 'PercentSalaryHike', 'StandardHours',
+       'StockOptionLevel', 'TotalWorkingYears', 'TrainingTimesLastYear',
+       'YearsAtCompany', 'YearsSinceLastPromotion', 'YearsWithCurrManager'],
+      dtype='object')
+Age                        0
+Attrition                  0
+BusinessTravel             0
+Department                 0
+DistanceFromHome           0
+Education                  0
+EducationField             0
+EmployeeCount              0
+EmployeeID                 0
+Gender                     0
+JobLevel                   0
+JobRole                    0
+MaritalStatus              0
+MonthlyIncome              0
+NumCompaniesWorked         0
+Over18                     0
+PercentSalaryHike          0
+StandardHours              0
+StockOptionLevel           0
+TotalWorkingYears          0
+TrainingTimesLastYear      0
+YearsAtCompany             0
+YearsSinceLastPromotion    0
+YearsWithCurrManager       0
+dtype: int64
+Age                          int64
+Attrition                   object
+BusinessTravel              object
+Department                  object
+DistanceFromHome             int64
+Education                    int64
+EducationField              object
+EmployeeCount                int64
+EmployeeID                   int64
+Gender                      object
+JobLevel                     int64
+JobRole                     object
+MaritalStatus               object
+MonthlyIncome                int64
+NumCompaniesWorked         float64
+Over18                      object
+PercentSalaryHike            int64
+StandardHours                int64
+StockOptionLevel             int64
+TotalWorkingYears          float64
+TrainingTimesLastYear        int64
+YearsAtCompany               int64
+YearsSinceLastPromotion      int64
+YearsWithCurrManager         int64
+dtype: object
+               Age  ...  YearsWithCurrManager
+count  4382.000000  ...           4382.000000
+mean     36.933364  ...              4.126198
+std       9.137272  ...              3.569674
+min      18.000000  ...              0.000000
+25%      30.000000  ...              2.000000
+50%      36.000000  ...              3.000000
+75%      43.000000  ...              7.000000
+max      60.000000  ...             17.000000
+
+[8 rows x 16 columns]
+   Age  Attrition  ... YearsSinceLastPromotion YearsWithCurrManager
+0   51          0  ...                       0                    0
+1   31          1  ...                       1                    4
+2   32          0  ...                       0                    3
+3   38          0  ...                       7                    5
+4   32          0  ...                       0                    4
+
+[5 rows x 20 columns]
+MEDIAN and MEAN OF CHURNED AND STAYED 
+churned : Age
+32.0 33.62836879432624
+Stayed : Age
+36.0 37.56703834647811
+churned : DistanceFromHome
+7.0 9.024113475177305
+Stayed : DistanceFromHome
+7.0 9.23252651618167
+churned : JobLevel
+2.0 2.0326241134751775
+Stayed : JobLevel
+2.0 2.0698939352733206
+churned : MonthlyIncome
+49080.0 61814.95035460993
+Stayed : MonthlyIncome
+49300.0 65684.20995376665
+churned : PercentSalaryHike
+14.0 15.487943262411347
+Stayed : PercentSalaryHike
+14.0 15.1574653249932
+churned : YearsSinceLastPromotion
+1.0 1.9602836879432624
+Stayed : YearsSinceLastPromotion
+1.0 2.2360620070709816
